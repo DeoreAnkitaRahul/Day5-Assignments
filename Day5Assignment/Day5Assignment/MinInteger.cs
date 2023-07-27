@@ -8,13 +8,13 @@ namespace Day5Assignment
 {
     public class MinInteger
     {
-        public void IntegerMethod()
+        public void FloatMethod()
         {
-            int numOne = 80;
-            int numTwo = 50;
-            int numThree = 90;
+            float numOne = 10.5f;
+            float numTwo = 5.3f;
+            float numThree = 8.7f;
 
-            int min = FindMinimum(numOne, numTwo, numThree);
+            float min = FindMinimum(numOne, numTwo, numThree);
             Console.WriteLine("Minimum value: " + min);
         }
         public static T FindMinimum<T>(T valueOne, T valueTwo, T valueThree) where T : IComparable<T>

@@ -11,7 +11,7 @@ namespace Day5Assignment
         static void Main(string[] args)
         {
             MinInteger minimumInteger = new MinInteger();
-            minimumInteger.IntegerMethod();
+            minimumInteger.FloatMethod();
             Console.ReadLine();
         }
     }
